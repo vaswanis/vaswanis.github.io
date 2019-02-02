@@ -1,2 +1,2 @@
-theme: jekyll-theme-minimal
+theme: jekyll-theme-tactile
 exclude: [".rvmrc", ".rbenv-version", "ReadMe.md", "Rakefile", "changelog.md", "License.md"]
