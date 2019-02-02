@@ -1,2 +1,1 @@
-# Sharan Vaswani
-## Postdoc
+## Sharan Vaswani
