@@ -1,37 +1,52 @@
-## Welcome to GitHub Pages
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN"
+  "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head>
+<link rel="stylesheet" href="jemdoc.css" type="text/css" />
+<link rel="stylesheet" href="jacob.css" type="text/css" />
+<title>Sharan Vaswani</title>
+</head>
+<body>
+<table summary="Table for page layout." id="tlayout">
+<tr valign="top">
+<td id="layout-menu">
+<div class="menu-item"><a href="index.html" class="current">Home</a></div>
+<div class="menu-item"><a href="Sharan_Vaswani_CV.pdf">CV</a></div>
+<div class="menu-item"><a href="projects.html">Projects</a></div>
+<div class="menu-item"><a href="publications.html">Publications</a></div>
+</td>
+<td id="layout-content">
+<div id="toptitle">
+<h1>Sharan Vaswani</h1>
+<div id="subtitle">PhD student, Department of Computer Science, University of British Columbia</div>
+</div>
 
-You can use the [editor on GitHub](https://github.com/vaswanis/vaswanis.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
+<div>
+<img class="MainImage" src="image.jpg" border="0" height="200" width="150">
+</div>
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+<p> I have graduated from UBC and joined the Montreal Institute for Learning Algorithms, <a href="https://mila.quebec/en">MILA</a> as a postdoc. </p>
 
-### Markdown
+<p> From 2015-2018, I was a PhD student co-supervised by <a href="http://www.cs.ubc.ca/~laks/">Laks Lakshmanan</a> and <a href="http://www.cs.ubc.ca/~schmidtm/">Mark Schmidt</a>. My PhD research was on "Structured Bandits and Applications", where we considered problems involving decision-making under uncertainty for applications in social networks and recommender systems. </p>
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+<p> I completed my MSc in Computer Science from UBC in 2015. I was supervised by Laks Lakshmanan and worked on the online and adaptive variants of the influence maximization problem in social networks. </p>
 
-```markdown
-Syntax highlighted code block
+<p> Before coming to UBC, I was a research engineer in the parallel systems group at Siemens Corporate Research in Bangalore. I obtained my Bachelors degree in Computer Science from the <a href="http://www.bits-pilani.ac.in/">Birla Institute of Technology and Science Pilani, India </a> in 2012. </p>
 
-# Header 1
-## Header 2
-### Header 3
+<b>Email:</b> <a href="mailto:sharanv@cs.ubc.ca">sharanv at cs dot ubc dot ca</a> <br>
+<b>Mail:</b> <br>
+        <A HREF="http://www.cs.ubc.ca/">Department of Computer Science</A><BR>
+        <A HREF="http://www.ubc.ca/">University of British Columbia</A><BR>
+        ICICS/CS Building 201-2366 Main Mall<br>
+        Vancouver, B.C.<br>
+        Canada V6T 1Z4<br>
 
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/vaswanis/vaswanis.github.io/settings). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://help.github.com/categories/github-pages-basics/) or [contact support](https://github.com/contact) and we’ll help you sort it out.
+<div id="footer">
+<div id="footer-text">
+</div>
+</div>
+</td>
+</tr>
+</table>
+</body>
+</html>
