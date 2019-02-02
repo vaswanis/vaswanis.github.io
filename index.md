@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+# Sharan Vaswani
 
 You can use the [editor on GitHub](https://github.com/vaswanis/vaswanis.github.io/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
