@@ -1,7 +1,4 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
-<head>
-<title>Sharan Vaswani</title>
-</head>
 <body>
 <table summary="Table for page layout." id="tlayout">
 <tr valign="top">
