@@ -1,0 +1,416 @@
+<html>
+
+<head>
+<title>CMPT 210 - Probability and Computing (Spring 2024)</title>
+<meta name="description" content="
+Course webpage for CMPT 210 taught by Sharan Vaswani in Spring 2024."> 
+</head>
+
+<font face="helvetica">
+
+<h1>CMPT 210 - Probability and Computing (Spring 2024)</h1>
+
+Lectures (beginning January 9): Tuesday (10.30 am - 11.20 am) and Thursday (9.30 am - 11.20 am) (BLU 10011)
+
+<p>
+Instructor: <a href="mailto:svaswani@sfu.ca">Sharan Vaswani</a>
+<BR>
+Instructor office hours: Thursday 1.30 pm - 2.30 pm (TASC-1 8221)
+</p>
+
+
+<p>
+Teaching Assistant: <a href="mailto:anh_dang@sfu.ca">Anh Dang</a>, <a href="mailto:matin_aghaei@sfu.ca">Matin Aghaei</a> 
+<BR>
+<!-- TA office hours: Monday 1.30 pm - 2.30 pm (TBD), Wednesday 1.30 pm - 2.30 pm (TBD) -->
+TA office hours: TBD
+</p>
+<p>
+
+<b>Course Objective</b>: The course introduces the foundational concepts in probability as required by many modern applications in computing. It will give the students in Computing Science experience in: 
+1. Understanding the combinatorial nature of many computational problems.
+2. Working knowledge of probability theory, with applications to computing (algorithms, machine learning, data analysis, etc.) 
+<p>
+
+
+<b>Prerequisites</b>: MACM 101, MATH 152 and MATH 232/MATH 240
+<p>
+
+<b>Textbook</b>: There is no required textbook. We will use the following resources: 
+<UL>
+<LI>   Introduction to Probability and Statistics for Engineers and Scientists, Sheldon M. Ross, Fifth Edition. 
+<LI>  <a href="https://people.csail.mit.edu/meyer/mcs.pdf">Mathematics for Computer Science (Meyer, Lehman, Leighton)</a>
+<LI>  <a href="http://www.cs.cmu.edu/~odonnell/papers/probability-and-computing-lecture-notes.pdf">CMU Lecture Notes for Probability and Computing (O'Donnell) </a>
+<LI>  <a href="https://www.cs.ubc.ca/~nickhar/Book.pdf">Randomized Algorithms (Harvey) </a>	
+<LI>  <a href="https://probml.github.io/pml-book/book1.html">Probabilistic Machine Learning: An Introduction (Murphy) </a>		
+</UL>
+
+<b>Grading</b>: Assignments 45%, Midterm 20%, Final 35%.
+<p>
+<a href="https://piazza.com/sfu.ca/spring2024/cmpt210/home">Piazza</a> for course-related questions.
+<p>
+
+<h2>List of topics</h2>
+<UL>
+<LI> Combinatorics: Permutations, Binomial coefficients, Inclusion-Exclusion
+<LI> Basic probability theory: Independence, Conditional probability, Bayes' Theorem 
+<LI> Basic probability theory: Random variables, Expectation, Linearity of Expectation, Variance 
+<LI> Discrete distributions: Binomial and Geometric, Joint distributions
+<LI> Tail inequalities: Marchkov’s Inequality, Chebyshev’s Inequality, Chernoff Bound
+<LI> Applications: Verifying matrix multiplication, Max-Cut, Machine Learning, Randomized QuickSort, AB Testing
+<LI> Continuous distributions (Introduction): Normal Distribution, Central Limit Theorem 
+</UL>
+
+<h2>Schedule</h2>
+
+<table width="80%" border="3" cellpadding="2">
+<tbody><tr align="left">
+<th>Date</th>
+<th>Topics</th>
+<th>Slides</th>
+<th>References</th>
+<th>Homework</th>
+</tr>
+
+<tr align="left">
+<td> Tue Jan 9</td>
+<td> Course logistics, Sets, Sequences </td>
+<td> </td>
+<!-- <a href="210-W24/L1.pdf">[L1]</a> </td> -->
+<td> Meyer, Lehman, Leighton (4.1, 4.2, 4.5) </td>
+<td> </td>
+</tr>
+
+
+<tr align="left">
+<td> Thu Jan 11</td>
+<!-- <td> Counting, Permutations, Combinations </td> 
+<td> <a href="210-W24/L2.pdf">[L2]</a> </td>
+<td> Meyer, Lehman, Leighton (14.1 - 14.5) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+<tr align="left">
+<td> Tue Jan 16</td>  
+<!-- <td> Binomial Theorem, Generalization to Multinomials  </td> 
+<td> <a href="210-W24/L3.pdf">[L3]</a> </td>
+<td> Meyer, Lehman, Leighton (14.6, 14.9) </td>
+<td> </td> 
+Waterloo visit 
+-->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+<tr align="left">
+<td> Thu Jan 18</td>
+<!-- <td> Pigeonhole principle, Introduction to Probability </td>
+<td> <a href="210-W24/L4.pdf">[L4]</a> </td>
+<td> Meyer, Lehman, Leighton (14.8, 14.10), Ross (3.1, 3.2, 3.3) </td>
+<td> Assignment 1 released </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> Assignment 1 released </td>
+</tr>
+
+<tr align="left">
+<td> Tue Jan 23</td>
+<!-- <td> Axioms and rules of Probability,  </td>
+<td> <a href="210-W24/L5.pdf">[L5]</a> </td>
+<td> Ross (3.4, 3.5), Meyer, Lehman, Leighton (16.5) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+<tr align="left">
+<td> Thu Jan 25</td>
+<!-- <td> Birthday Paradox, Introduction to Conditional Probability </td>
+<td> <a href="210-W24/L6.pdf">[L6]</a> </td>
+<td> Ross (3.6), Meyer, Lehman, Leighton (16.4, 17.2) </td>
+<td> Assignment 1 due </td>  -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> Assignment 1 due </td>
+</tr>
+
+<tr align="left">
+<td> Tue Jan 30</td>
+<!-- <td> Conditional Probability </td>
+<td> <a href="210-W24/L7.pdf">[L7]</a> </td>
+<td> Ross (3.6), Meyer, Lehman, Leighton (17.2) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+<tr align="left">	
+<td> Thu Feb 1</td>
+<!-- <td> Monty Hall Problem, Tree Diagrams </td>
+<td> <a href="210-W24/L8.pdf">[L8]</a> </td>
+<td> Meyer, Lehman, Leighton (16.1-16.3, 17.1, 17.3, 17.4) </td>
+<td> Assignment 2 released </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> Assignment 2 released </td>
+</tr>
+
+<tr align="left">
+<td> Tue Feb 6</td>
+<!-- <td> Law of Total Probability, Bayes Rule,  </td>
+<td> <a href="210-W24/L9.pdf">[L9]</a> </td>
+<td> Ross (3.7, 3.8), Meyer, Lehman, Leighton (17.5, 17.6) </td>
+<td>  </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+<tr align="left">
+<td> Thu Feb 8</td>
+<!--  <td> Independent Events, Frievald's Algorithm </td>
+<td> <a href="210-W24/L10.pdf">[L10]</a> </td>
+<td> Meyer, Lehman, Leighton (17.7), O'Donnell (1) </td>
+<td> Assignment 2 due </td>  -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> Assignment 2 due </td>
+</tr>
+
+<tr align="left">
+<td> Tue Feb 13</td>
+<!-- <td> Probability Amplification, Random Variables </td>
+<td> <a href="210-W24/L11.pdf">[L11]</a> </td>
+<td> Ross (4.1), Meyer, Lehman, Leighton (18.1) </td>
+<td>  </td> 
+BIRS visit -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+
+<tr align="left">
+<td> Thu Feb 15</td>
+<!-- <td> Distribution Functions, Discrete Distributions (Bernoulli, Uniform) </td>
+<td> <a href="210-W24/L12.pdf">[L12]</a> </td>
+<td> Ross (5.1), Meyer, Lehman, Leighton (18.3.1, 19.3.1, 19.3.2, 19.3.4) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+
+<tr align="left">
+<td> Tue Feb 20 </td>
+<td colspan="100%" style="color:blue"> Holiday </td>
+</tr>
+
+<tr align="left">
+<td> Thu Feb 22 </td>
+<td colspan="100%" style="color:blue"> Holiday </td>
+</tr>
+
+
+<tr align="left">
+<td> Tue Feb 27</td>
+<!-- <td> Discrete Distributions (Binomial, Geometric)  </td>
+<td> <a href="210-W24/L13.pdf">[L13]</a> </td>
+<td> Ross (5.1), Meyer, Lehman, Leighton (18.3.1, 19.3.1, 19.3.2, 19.3.4) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+
+<tr align="left">
+<td> Thu Feb 29 (9.30 am - 11.20 am) (BLU 10011) </td>
+<td colspan="100%" style="color:red"> Midterm </td>
+</tr>
+
+
+<td> Tue March 5</td>
+<!-- <td> Expectation of random variables, Linearity of expectation </td>
+<td> <a href="210-W24/L14.pdf">[L14]</a> </td>
+<td> Ross (4.4, 4.5), Meyer, Lehman, Leighton (18.4.1-18.4.3, 18.5.1-18.5.3) </td> 
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+<tr align="left">
+<td> Thu March 7</td>
+<!-- <td> Coupon Collector Problem, Max Cut, Conditional Expectation, Law of Total Expectation </td>
+<td> <a href="210-W24/L15.pdf">[L15]</a> </td>
+<td> Meyer, Lehman, Leighton (18.5.4, 18.4.5), Harvey (16.1) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+<tr align="left">
+<td> Tue March 12</td>
+<!-- <td> Randomized Quick Select, Independence of random variables </td>
+<td> <a href="210-W24/L16.pdf">[L16]</a> </td>
+<td> Meyer, Lehman, Leighton (18.2), Harvey (5.2) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+<tr align="left">
+<td> Thu March 14</td>
+<!-- <td> Joint distributions, Variance </td>
+<td> <a href="210-W24/L17.pdf">[L17]</a> </td>
+<td> Ross (4.3, 4.6), Meyer, Lehman, Leighton (19.3) </td>
+<td> Assignment 3 released </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td>  </td>
+</tr>
+
+
+<tr align="left">
+<td> Tue March 19</td>
+<!-- <td> Properties of Variance, Matching Birthdays </td>
+<td> <a href="210-W24/L18.pdf">[L18]</a> </td>
+<td> Ross (4.6), Meyer, Lehman, Leighton (19.3) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> Assignment 3 released </td>
+</tr>
+
+<tr align="left">
+<td> Thu March 21</td>
+<!-- <td> Matching Birthdays, Covariance, Correlation </td>
+<td> <a href="210-W24/L19.pdf">[L19]</a> </td>
+<td> Ross (4.7), Meyer, Lehman, Leighton (19.4.2) </td>
+<td> Assignment 3 due </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td>  </td>
+</tr>
+
+<tr align="left">
+<td> Tue March 26 </td>
+<!-- <td> Tail Inequalities (Marchkov, Chebyshev), </td>
+<td> <a href="210-W24/L20.pdf">[L20]</a> </td>
+<td> Meyer, Lehman, Leighton (19.1, 19.2) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> Assignment 3 due </td>
+</tr>
+
+
+<tr align="left">
+<td> Thu March 28</td>
+<!-- <td> Voter Poll, Weak Law of Large Numbers, Chernoff Bound </td>
+<td> <a href="210-W24/L21.pdf">[L21]</a> </td>
+<td> Meyer, Lehman, Leighton (19.4, 19.6) </td>
+<td> Assignment 4 released </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td>  </td>
+</tr>
+
+<tr align="left">
+<td> Tue April 2</td>
+<!-- <td> Chernoff Bound  </td>  
+<td> <a href="210-W24/L22.pdf">[L22]</a> </td>
+<td> Meyer, Lehman, Leighton (19.6) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> Assignment 4 released </td>
+</tr>
+
+<tr align="left">
+<td> Thu April 4</td>
+<!-- <td> Randomized Load Balancing, Machine Learning 101 </td>
+<td> <a href="210-W24/L23.pdf">[L23]</a> </td>
+<td> Meyer, Lehman, Leighton (19.6), Murphy (4.2.1, 4.2.3, 10.2.1, 10.2.3) </td>
+<td> Assignment 4 due </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td>  </td>
+</tr>
+
+<tr align="left">
+<td> Tue April 9</td> 
+<!-- <td> Machine Learning 101, Wrapping up </td>
+<td> <a href="210-W24/L24.pdf">[L24]</a> </td>
+<td> Murphy (4.2.1, 4.2.3, 10.2.1, 10.2.3) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> Assignment 4 due </td>
+</tr>
+
+<tr align="left">
+<td> Thu April 11</td> 
+<!-- <td> Machine Learning 101, Wrapping up </td>
+<td> <a href="210-W24/L24.pdf">[L24]</a> </td>
+<td> Murphy (4.2.1, 4.2.3, 10.2.1, 10.2.3) </td>
+<td> </td> -->
+<td> </td>
+<td> </td>
+<td> </td>
+<td> </td>
+</tr>
+
+<!-- <tr align="left">
+<td> Fri April 21 (7 pm - 10 pm) (SSCC 9000 Chemistry) </td>
+<td colspan="100%" style="color:red"> Final </td>
+</tr> -->
+
+
+</table>
+
+<br>
+<b>Related Courses</b>
+<UL> 	
+<LI> <a href="http://www.cs.cmu.edu/~odonnell/papers/probability-and-computing-lecture-notes.pdf">CMU</a> 
+<LI> <a href="https://courses.cs.washington.edu/courses/cse312/19sp/">U Washington</a> 
+<LI> <a href="https://web.stanford.edu/class/cs109/">Stanford</a> 
+</UL>
+<p>
+
+<BR>
+</font>
+</html>
